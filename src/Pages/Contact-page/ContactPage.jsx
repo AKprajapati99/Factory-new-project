@@ -2,10 +2,11 @@ import React from 'react';
 import './ContactPage.css'; // Make sure to import your CSS file
 import Parelax from '../../Components/ParelaxEffect/Parelax';
 import image03 from '../../assets/AboutPageimg/image03.jpg'
-
+import MapComponent from '../../Components/MyMapComponent/MapComponent';
 const ContactPage = () => {
     return (
         <>
+        
             <Parelax heading={"Contact Us"} backgroundImage={image03} />
             <div>
             
@@ -67,6 +68,7 @@ const ContactPage = () => {
                 </div>
                 </div>
             </div>
+            <MapComponent />
         </>
     );
 }
